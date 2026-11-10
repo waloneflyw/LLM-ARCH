@@ -1,0 +1,18 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ===== 模型权重 / 训练产物（体积大，可由脚本重新生成，不提交）=====
+merged_model/
+results/
+lora_model/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
